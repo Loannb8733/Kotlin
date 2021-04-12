@@ -1,19 +1,36 @@
 # Kotlin 
+
 ## CycleDeVie
+
+***
 
 ## ListView
 
+***
+
 ## MyApplication
+
+***
 
 ## MyBDD
 
+***
+
 ## Photo
+
+***
 
 ## ProjetQuizz
 
+***
+
 ## Scroll
 
+***
+
 ## WikiQuizz
+
+***
 
 ## bibliotheque
   L'objectif de ce projet est de pouvoir creer et enregistrer des livres grâce à différents boutons.
@@ -36,5 +53,8 @@
     - Permet de modifier l'Isbn ou le Titre d'un livre déjà créé grâce à son Id
   - bouton ***delete***
     - Permet de supprimer un livre grâce à son Id
+
+***
  
 ## changementImage
+L'objectif de ce projet à été d'apprendre à changer une image grâce au bouton *changer image* mais également de changer l'icone de base de l'application sur l'écran d'accueil de l'appareil
