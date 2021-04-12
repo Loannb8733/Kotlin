@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    tools:context=".ActivityClassement">
+
+    <Button
+        android:id="@+id/btnRankingThemeLogos"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/logos"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankingThemeKitchen" />
+
+    <Button
+        android:id="@+id/btnRankingThemeKitchen"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/cuisine"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankingThemeGeneralCulture" />
+
+    <Button
+        android:id="@+id/btnRankingThemeGeneralCulture"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/culture_g_n_ral"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankingThemeFlags" />
+
+    <Button
+        android:id="@+id/btnRankingThemeFlags"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/drapeaux"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankingThemeFoot" />
+
+    <Button
+        android:id="@+id/btnRankingThemeFoot"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/football"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitreRanking" />
+
+    <ImageView
+        android:id="@+id/flecheRetourRanking"
+        android:layout_width="64dp"
+        android:layout_height="73dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecheretour" />
+
+    <TextView
+        android:id="@+id/TitreRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/classement"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/retourAccueilRanking"
+        android:layout_width="69dp"
+        android:layout_height="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retouraccueil" />
+</androidx.constraintlayout.widget.ConstraintLayout>

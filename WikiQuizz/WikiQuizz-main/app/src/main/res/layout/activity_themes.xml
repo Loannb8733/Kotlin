@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    tools:context=".ActivityThemes">
+
+    <Button
+        android:id="@+id/btnThemeLogos"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/logos"
+        android:textColor="@color/grey"
+        app:backgroundTint="@color/lightskyblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThemeKitchen" />
+
+    <Button
+        android:id="@+id/btnThemeKitchen"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/cuisine"
+        android:textColor="@color/grey"
+        app:backgroundTint="@color/lightskyblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThemeGeneralCulture" />
+
+    <Button
+        android:id="@+id/btnThemeGeneralCulture"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/culture_g_n_ral"
+        android:textColor="@color/grey"
+        app:backgroundTint="@color/lightskyblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThemeFlag" />
+
+    <Button
+        android:id="@+id/btnThemeFlag"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/drapeaux"
+        android:textColor="@color/grey"
+        app:backgroundTint="@color/lightskyblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThemeFoot" />
+
+    <TextView
+        android:id="@+id/TitreThemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/th_mes"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnThemeFoot"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/football"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitreThemes"
+    />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:adjustViewBounds="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329"
+        app:srcCompat="@drawable/themeverouille" />
+
+    <ImageView
+        android:id="@+id/flecheRetour"
+        android:layout_width="64dp"
+        android:layout_height="73dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecheretour" />
+
+    <ImageView
+        android:id="@+id/retourAccueil"
+        android:layout_width="69dp"
+        android:layout_height="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retouraccueil" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

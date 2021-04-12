@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizz2</string>
+    <string name="th_mes">Thèmes</string>
+    <string name="football">Football</string>
+    <string name="jouer">Jouer</string>
+    <string name="options">Options</string>
+    <string name="classement">Classement</string>
+    <string name="logos">Logos</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="culture_g_n_ral">Culture général</string>
+    <string name="drapeaux">Drapeaux</string>
+</resources>

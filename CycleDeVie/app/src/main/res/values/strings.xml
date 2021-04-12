@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CycleDeVie2</string>
+    <string name="acceder_la_page_suivante">Acceder à la page suivante</string>
+    <string name="retour_la_page_pr_c_dente">Retour à la page précédente</string>
+</resources>

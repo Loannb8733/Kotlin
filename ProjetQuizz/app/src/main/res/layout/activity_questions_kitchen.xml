@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    tools:context=".ActivityQuestionsKitchen">
+
+    <TextView
+        android:id="@+id/QuestionKitchen1"
+        android:layout_width="347dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titreThemeKitchen" />
+
+    <TextView
+        android:id="@+id/titreThemeKitchen"
+        android:layout_width="332dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center_horizontal"
+        android:text="@string/cuisine"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreQuestionsKitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titreThemeKitchen" />
+
+    <ImageView
+        android:id="@+id/imageQuestion"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionKitchen1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/ReponseKitchen4"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:onClick="onClickAnswerFour"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageQuestion" />
+
+    <TextView
+        android:id="@+id/ReponseKitchen1"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:onClick="onClickAnswerOne"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageQuestion" />
+
+    <TextView
+        android:id="@+id/ReponseKitchen2"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:onClick="onClickAnswerTwo"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageQuestion" />
+
+    <TextView
+        android:id="@+id/ReponseKitchen3"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="124dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:onClick="onClickAnswerThree"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageQuestion" />
+
+    <Button
+        android:id="@+id/buttonQuestionSuivante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_suivante"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReponseKitchen3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

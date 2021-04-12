@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quizz2</string>
+    <string name="th_mes">Thèmes</string>
+    <string name="football">Football</string>
+    <string name="jouer">Jouer</string>
+    <string name="options">Options</string>
+    <string name="classement">Classement</string>
+    <string name="logos">Logos</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="culture_g_n_ral">Culture général</string>
+    <string name="question_suivante">Question suivante</string>
+    <string name="drapeaux">Drapeaux</string>
+    <string name="title_activity_questions_logos">ActivityQuestionsLogos</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="f_licitation">Félicitation</string>
+    <string name="votre_score_est">Votre score est</string>
+</resources>
